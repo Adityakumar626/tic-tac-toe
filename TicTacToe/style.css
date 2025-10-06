@@ -39,6 +39,13 @@ body {
     opacity: 0.6;
 }
 
+.box:hover {
+  background-color: #c4d8a4; /* A slightly different color */
+  opacity: 1; /* Make fully opaque */
+  transform: scale(1.05); /* Slightly enlarge */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
 #reset-btn {
     padding: 1rem;
     font-size: 1.25rem;
