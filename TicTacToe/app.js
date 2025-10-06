@@ -11,8 +11,10 @@ let Player2 = prompt("Enter Player 2 Name for X");
 let turnO = true;
 let count = 0;
 
-if (Player1 == Player2 ) {
-    alert("Enter Different Name");
+while (Player1 === Player2) {
+  alert("Enter Different Names");
+  Player1 = prompt("Enter Player 1 name for O");
+  Player2 = prompt("Enter Player 2 name for X");
 }
 
 const winPatterns = [
